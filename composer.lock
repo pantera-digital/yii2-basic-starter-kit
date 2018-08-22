@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "8671f74d3ecdcaaf422a636b0b8f15d9",
@@ -1671,12 +1671,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantera-digital/yii2-seo.git",
-                "reference": "b73b79c4e85950aa3f9f9c1043ad851ebd64ccec"
+                "reference": "0f9105f5de10219eef31b353bff18ba91c41f039"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantera-digital/yii2-seo/zipball/b73b79c4e85950aa3f9f9c1043ad851ebd64ccec",
-                "reference": "b73b79c4e85950aa3f9f9c1043ad851ebd64ccec",
+                "url": "https://api.github.com/repos/pantera-digital/yii2-seo/zipball/0f9105f5de10219eef31b353bff18ba91c41f039",
+                "reference": "0f9105f5de10219eef31b353bff18ba91c41f039",
                 "shasum": ""
             },
             "require": {
@@ -1698,7 +1698,7 @@
                 "seo",
                 "yii2"
             ],
-            "time": "2018-08-22T01:12:46+00:00"
+            "time": "2018-08-22T08:16:54+00:00"
         },
         {
             "name": "phpoffice/phpexcel",
@@ -1870,12 +1870,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:webmayak/clientpad-reserves.git",
-                "reference": "91149957e8649bf6e2fc4c6d334ca80890a89445"
+                "reference": "db3d25e981ec0376b836fda11494963b3b2ce1a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmayak/clientpad-reserves/zipball/91149957e8649bf6e2fc4c6d334ca80890a89445",
-                "reference": "91149957e8649bf6e2fc4c6d334ca80890a89445",
+                "url": "https://api.github.com/repos/webmayak/clientpad-reserves/zipball/db3d25e981ec0376b836fda11494963b3b2ce1a7",
+                "reference": "db3d25e981ec0376b836fda11494963b3b2ce1a7",
                 "shasum": ""
             },
             "require": {
@@ -1900,7 +1900,7 @@
                 "source": "https://github.com/webmayak/clientpad-reserves/tree/master",
                 "issues": "https://github.com/webmayak/clientpad-reserves/issues"
             },
-            "time": "2018-08-22T07:29:30+00:00"
+            "time": "2018-08-22T14:52:17+00:00"
         },
         {
             "name": "yiisoft/yii2",
