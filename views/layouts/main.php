@@ -4,6 +4,7 @@
 /* @var $content string */
 
 use app\widgets\Alert;
+use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
@@ -11,6 +12,8 @@ use yii\widgets\Breadcrumbs;
 use app\assets\AppAsset;
 
 AppAsset::register($this);
+rmrevin\yii\fontawesome\AssetBundle::register($this);
+
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
@@ -36,8 +39,9 @@ AppAsset::register($this);
         ],
     ]);
     echo Nav::widget([
+        'encodeLabels' => false,
         'options' => ['class' => 'navbar-nav navbar-right'],
-        'items' => [
+        'items' => ArrayHelper::merge(Yii::$app->getModule('reserves')->menuItems, [
             ['label' => 'Home', 'url' => ['/site/index']],
             ['label' => 'About', 'url' => ['/site/about']],
             ['label' => 'Contact', 'url' => ['/site/contact']],
@@ -53,7 +57,7 @@ AppAsset::register($this);
                 . Html::endForm()
                 . '</li>'
             )
-        ],
+        ]),
     ]);
     NavBar::end();
     ?>
