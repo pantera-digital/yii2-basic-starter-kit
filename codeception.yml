@@ -1,5 +1,4 @@
 include:
-  - vendor/webmayak/reserves
   - vendor/pantera-digital/yii2-seo
 paths:
   output: _output

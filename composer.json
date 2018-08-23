@@ -18,7 +18,6 @@
         "yiisoft/yii2": "~2.0.14",
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0",
-        "webmayak/reserves" : "dev-master",
         "pantera-digital/yii2-seo" : "dev-master"
     },
     "require-dev": {
@@ -62,10 +61,6 @@
         }
     },
     "repositories": [
-        {
-            "type": "vcs",
-            "url":  "git@github.com:webmayak/clientpad-reserves.git"
-        },
         {
             "type": "composer",
             "url": "https://asset-packagist.org"

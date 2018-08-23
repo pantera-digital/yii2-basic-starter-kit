@@ -53,12 +53,6 @@ $config = [
         */
     ],
     'params' => $params,
-    'modules' => [
-        'reserves' => [
-            'class' => 'webmayak\reserves\Module',
-            'accessRoles' => ['@']
-        ],
-    ]
 ];
 
 if (YII_ENV_DEV) {
