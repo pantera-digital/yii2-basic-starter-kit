@@ -1671,12 +1671,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantera-digital/yii2-seo.git",
-                "reference": "0f9105f5de10219eef31b353bff18ba91c41f039"
+                "reference": "4b6abfa6af976625953e26ee0a147136196c1794"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantera-digital/yii2-seo/zipball/0f9105f5de10219eef31b353bff18ba91c41f039",
-                "reference": "0f9105f5de10219eef31b353bff18ba91c41f039",
+                "url": "https://api.github.com/repos/pantera-digital/yii2-seo/zipball/4b6abfa6af976625953e26ee0a147136196c1794",
+                "reference": "4b6abfa6af976625953e26ee0a147136196c1794",
                 "shasum": ""
             },
             "require": {
@@ -1698,7 +1698,7 @@
                 "seo",
                 "yii2"
             ],
-            "time": "2018-08-22T08:16:54+00:00"
+            "time": "2018-08-23T05:29:51+00:00"
         },
         {
             "name": "phpoffice/phpexcel",
@@ -1870,12 +1870,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:webmayak/clientpad-reserves.git",
-                "reference": "db3d25e981ec0376b836fda11494963b3b2ce1a7"
+                "reference": "9761339f30c994fbc0bc2224ead91f707151ed2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmayak/clientpad-reserves/zipball/db3d25e981ec0376b836fda11494963b3b2ce1a7",
-                "reference": "db3d25e981ec0376b836fda11494963b3b2ce1a7",
+                "url": "https://api.github.com/repos/webmayak/clientpad-reserves/zipball/9761339f30c994fbc0bc2224ead91f707151ed2f",
+                "reference": "9761339f30c994fbc0bc2224ead91f707151ed2f",
                 "shasum": ""
             },
             "require": {
@@ -1900,7 +1900,7 @@
                 "source": "https://github.com/webmayak/clientpad-reserves/tree/master",
                 "issues": "https://github.com/webmayak/clientpad-reserves/issues"
             },
-            "time": "2018-08-22T14:52:17+00:00"
+            "time": "2018-08-23T10:24:29+00:00"
         },
         {
             "name": "yiisoft/yii2",
