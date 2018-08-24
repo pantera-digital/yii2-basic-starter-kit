@@ -52,6 +52,19 @@ $config = [
         ],
         */
     ],
+    'modules' => [
+        'reserves' => [
+            'class' => 'webmayak\reserves\Module',
+            'accessRoles' => ['@']
+        ],
+        'seo' => [
+            'class' => 'pantera\seo\Module',
+        ],
+        'rules' => [
+            'class' => 'pantera\rules\admin\Module',
+            'permissions' => ['@'],
+        ],
+    ],
     'params' => $params,
 ];
 

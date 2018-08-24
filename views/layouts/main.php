@@ -38,26 +38,28 @@ rmrevin\yii\fontawesome\AssetBundle::register($this);
             'class' => 'navbar-inverse navbar-fixed-top',
         ],
     ]);
+    $items = [];
+    if ($reservesModule = Yii::$app->getModule('reserves')) $items = ArrayHelper::merge($items, $reservesModule->menuItems);
+    if ($seoModule = Yii::$app->getModule('seo')) $items = ArrayHelper::merge($items, $seoModule->menuItems);
+    if ($rulesModule = Yii::$app->getModule('rules')) $items = ArrayHelper::merge($items, $rulesModule->menuItems);
+    $items = ArrayHelper::merge($items, [
+        Yii::$app->user->isGuest ? (
+            ['label' => 'Login', 'url' => ['/site/login']]
+        ) : (
+            '<li>'
+            . Html::beginForm(['/site/logout'], 'post')
+            . Html::submitButton(
+                'Logout (' . Yii::$app->user->identity->username . ')',
+                ['class' => 'btn btn-link logout']
+            )
+            . Html::endForm()
+            . '</li>'
+        )
+    ]);
     echo Nav::widget([
         'encodeLabels' => false,
         'options' => ['class' => 'navbar-nav navbar-right'],
-        'items' => ArrayHelper::merge(Yii::$app->getModule('reserves')->menuItems, [
-            ['label' => 'Home', 'url' => ['/site/index']],
-            ['label' => 'About', 'url' => ['/site/about']],
-            ['label' => 'Contact', 'url' => ['/site/contact']],
-            Yii::$app->user->isGuest ? (
-                ['label' => 'Login', 'url' => ['/site/login']]
-            ) : (
-                '<li>'
-                . Html::beginForm(['/site/logout'], 'post')
-                . Html::submitButton(
-                    'Logout (' . Yii::$app->user->identity->username . ')',
-                    ['class' => 'btn btn-link logout']
-                )
-                . Html::endForm()
-                . '</li>'
-            )
-        ]),
+        'items' => $items,
     ]);
     NavBar::end();
     ?>
