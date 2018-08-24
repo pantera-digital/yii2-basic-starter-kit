@@ -220,12 +220,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantera-digital/yii2-seo.git",
-                "reference": "a5a896aedb880128c99f297b3e37b58d01514a93"
+                "reference": "93a5fe0576be0ed405b60f0545a45358cf2e47b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantera-digital/yii2-seo/zipball/a5a896aedb880128c99f297b3e37b58d01514a93",
-                "reference": "a5a896aedb880128c99f297b3e37b58d01514a93",
+                "url": "https://api.github.com/repos/pantera-digital/yii2-seo/zipball/93a5fe0576be0ed405b60f0545a45358cf2e47b6",
+                "reference": "93a5fe0576be0ed405b60f0545a45358cf2e47b6",
                 "shasum": ""
             },
             "require": {
@@ -247,7 +247,7 @@
                 "seo",
                 "yii2"
             ],
-            "time": "2018-08-23T17:44:36+00:00"
+            "time": "2018-08-24T06:49:18+00:00"
         },
         {
             "name": "phpoffice/phpexcel",
