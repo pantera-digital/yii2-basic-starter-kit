@@ -39,6 +39,16 @@ $bundle = yiister\gentelella\assets\Asset::register($this);
             margin-bottom: 10px;
             background-color: none;
         }
+        .nav-sm li:hover ul.nav.child_menu {
+            display: block !important;
+        }
+        .nav-sm li.active:hover ul.nav.child_menu,
+        .nav-sm li.active-sm:hover ul.nav.child_menu {
+            margin-left: 4px;
+        }
+        .nav-sm .nav.side-menu li ul li a {
+            font-size: 12px;
+        }
     </style>
 </head>
 <body class="nav-<?= !empty($_COOKIE['menuIsCollapsed']) && $_COOKIE['menuIsCollapsed'] == 'true' ? 'sm' : 'md' ?>" >
