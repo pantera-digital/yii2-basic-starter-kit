@@ -20,7 +20,8 @@
         "yiisoft/yii2-swiftmailer": "~2.0.0",
         "webmayak/reserves" : "dev-master",
         "pantera-digital/yii2-seo" : "dev-master",
-        "pantera-digital/yii2-rules": "@dev"
+        "pantera-digital/yii2-rules": "@dev",
+        "yiister/yii2-gentelella": "~1.0"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
