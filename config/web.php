@@ -51,6 +51,14 @@ $config = [
             ],
         ],
         */
+        'i18n' => [
+            'translations' => [
+                'yii2mod.comments' => [
+                    'class' => 'yii\i18n\PhpMessageSource',
+                    'basePath' => '@yii2mod/comments/messages',
+                ],
+            ],
+        ],
     ],
     'modules' => [
         'reserves' => [
@@ -63,6 +71,13 @@ $config = [
         'rules' => [
             'class' => 'pantera\rules\admin\Module',
             'permissions' => ['@'],
+        ],
+        'discussion' => [
+            'class' => 'pantera\discussions\Module',
+            'access' => ['@'],
+        ],
+        'comment' => [
+            'class' => 'yii2mod\comments\Module',
         ],
     ],
     'params' => $params,
