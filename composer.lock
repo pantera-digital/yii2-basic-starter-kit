@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "content-hash": "49583232e9dd1d7e8aecf349237a7387",
@@ -256,7 +256,8 @@
             "type": "bower-asset",
             "license": [
                 "MIT"
-            ]
+            ],
+            "time": "2018-06-18T11:54:28+00:00"
         },
         {
             "name": "bower-asset/inputmask",
@@ -2125,12 +2126,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:webmayak/clientpad-reserves.git",
-                "reference": "f23c82c314461e43adb7fabf85e7a5029b31e210"
+                "reference": "725592a3706eba440d5cafe1b7db5156353107f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmayak/clientpad-reserves/zipball/f23c82c314461e43adb7fabf85e7a5029b31e210",
-                "reference": "f23c82c314461e43adb7fabf85e7a5029b31e210",
+                "url": "https://api.github.com/repos/webmayak/clientpad-reserves/zipball/725592a3706eba440d5cafe1b7db5156353107f1",
+                "reference": "725592a3706eba440d5cafe1b7db5156353107f1",
                 "shasum": ""
             },
             "require": {
@@ -2155,7 +2156,7 @@
                 "source": "https://github.com/webmayak/clientpad-reserves/tree/master",
                 "issues": "https://github.com/webmayak/clientpad-reserves/issues"
             },
-            "time": "2018-08-24T15:30:49+00:00"
+            "time": "2018-08-27T15:51:25+00:00"
         },
         {
             "name": "yiisoft/yii2",
