@@ -79,6 +79,10 @@ $config = [
         'comment' => [
             'class' => 'yii2mod\comments\Module',
         ],
+        'faq' => [
+            'class' => \pantera\faq\admin\Module::className(),
+            'access' => ['@'],
+        ],
     ],
     'params' => $params,
 ];
