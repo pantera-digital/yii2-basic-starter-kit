@@ -6,7 +6,7 @@ $db = require __DIR__ . '/db.php';
 $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
-    'bootstrap' => ['log'],
+    'bootstrap' => ['log', 'media'],
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
@@ -82,6 +82,14 @@ $config = [
         'faq' => [
             'class' => \pantera\faq\admin\Module::className(),
             'access' => ['@'],
+        ],
+        'media' => [
+            'class' => \pantera\media\Module::className(),
+            'permissions' => ['@'],
+        ],
+        'content' => [
+            'class' => \pantera\content\admin\Module::className(),
+            'permissions' => ['@'],
         ],
     ],
     'params' => $params,

@@ -6,7 +6,7 @@ $db = require __DIR__ . '/db.php';
 $config = [
     'id' => 'basic-console',
     'basePath' => dirname(__DIR__),
-    'bootstrap' => ['log'],
+    'bootstrap' => ['log', 'media'],
     'controllerNamespace' => 'app\commands',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
@@ -25,6 +25,12 @@ $config = [
             ],
         ],
         'db' => $db,
+    ],
+    'modules' => [
+        'media' => [
+            'class' => \pantera\media\Module::className(),
+            'permissions' => ['@'],
+        ],
     ],
     'params' => $params,
     /*

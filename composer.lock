@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "400c11a7feaa813670e30209bc7c8020",
+    "content-hash": "c344fa3fb0ccc1209f7b271b1adc5f7f",
     "packages": [
         {
             "name": "2amigos/yii2-ckeditor-widget",
@@ -364,8 +364,7 @@
             "type": "bower-asset",
             "license": [
                 "MIT"
-            ],
-            "time": "2018-06-18T11:54:28+00:00"
+            ]
         },
         {
             "name": "bower-asset/inputmask",
@@ -684,6 +683,50 @@
             "time": "2016-10-24T15:52:54+00:00"
         },
         {
+            "name": "himiklab/yii2-easy-thumbnail-image-helper",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/himiklab/yii2-easy-thumbnail-image-helper.git",
+                "reference": "84c5d9d860e1bd4483419135b4135192027600fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/himiklab/yii2-easy-thumbnail-image-helper/zipball/84c5d9d860e1bd4483419135b4135192027600fc",
+                "reference": "84c5d9d860e1bd4483419135b4135192027600fc",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "~2.0.13",
+                "yiisoft/yii2-httpclient": "*",
+                "yiisoft/yii2-imagine": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "himiklab\\thumbnail\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "HimikLab",
+                    "homepage": "https://github.com/himiklab/"
+                }
+            ],
+            "description": "Yii2 helper for creating and caching thumbnails on real time",
+            "keywords": [
+                "helper",
+                "image",
+                "thumbnail",
+                "yii2"
+            ],
+            "time": "2018-07-03T15:18:51+00:00"
+        },
+        {
             "name": "himiklab/yii2-sortable-grid-view-widget",
             "version": "dev-master",
             "source": {
@@ -726,6 +769,64 @@
                 "yii2"
             ],
             "time": "2018-02-27T14:23:33+00:00"
+        },
+        {
+            "name": "imagine/imagine",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/avalanche123/Imagine.git",
+                "reference": "326e5be036b030887e624449e233d37e1a749eff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/avalanche123/Imagine/zipball/326e5be036b030887e624449e233d37e1a749eff",
+                "reference": "326e5be036b030887e624449e233d37e1a749eff",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "2.2.*",
+                "symfony/phpunit-bridge": "^3.2 || ^4.0"
+            },
+            "suggest": {
+                "ext-gd": "to use the GD implementation",
+                "ext-gmagick": "to use the Gmagick implementation",
+                "ext-imagick": "to use the Imagick implementation"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "0.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Imagine\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bulat Shakirzyanov",
+                    "email": "mallluhuct@gmail.com",
+                    "homepage": "http://avalanche123.com"
+                }
+            ],
+            "description": "Image processing for PHP 5.3",
+            "homepage": "http://imagine.readthedocs.org/",
+            "keywords": [
+                "drawing",
+                "graphics",
+                "image manipulation",
+                "image processing"
+            ],
+            "time": "2018-09-12T16:21:21+00:00"
         },
         {
             "name": "kartik-v/bootstrap-fileinput",
@@ -2115,6 +2216,36 @@
             "time": "2018-08-07T08:39:47+00:00"
         },
         {
+            "name": "pantera-digital/yii2-content-kit",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pantera-digital/yii2-content-kit.git",
+                "reference": "26ca60a84a816b0b55549f3ff0e2c3356dd46b60"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pantera-digital/yii2-content-kit/zipball/26ca60a84a816b0b55549f3ff0e2c3356dd46b60",
+                "reference": "26ca60a84a816b0b55549f3ff0e2c3356dd46b60",
+                "shasum": ""
+            },
+            "require": {
+                "2amigos/yii2-ckeditor-widget": "~2.1",
+                "pantera-digital/yii2-media": "dev-master",
+                "pantera-digital/yii2-seo": "*",
+                "php": ">=7.0.0",
+                "yiisoft/yii2": "~2.0.6"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "pantera\\content\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2018-09-17T07:47:56+00:00"
+        },
+        {
             "name": "pantera-digital/yii2-discussion-boards",
             "version": "dev-master",
             "source": {
@@ -2201,6 +2332,40 @@
             "description": "Various utilities for Yii Framework 2.x GridView",
             "homepage": "https://github.com/pantera-digital/yii2-grid",
             "time": "2018-02-07T11:56:58+00:00"
+        },
+        {
+            "name": "pantera-digital/yii2-media",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pantera-digital/yii2-media.git",
+                "reference": "bf48116e8ce5c376e627cbe3b4f9b89bc5c48178"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pantera-digital/yii2-media/zipball/bf48116e8ce5c376e627cbe3b4f9b89bc5c48178",
+                "reference": "bf48116e8ce5c376e627cbe3b4f9b89bc5c48178",
+                "shasum": ""
+            },
+            "require": {
+                "2amigos/yii2-file-upload-widget": "*",
+                "himiklab/yii2-easy-thumbnail-image-helper": "*",
+                "kartik-v/yii2-widget-fileinput": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "pantera\\media\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "webmayak",
+                    "email": "web-mayak@mail.ru"
+                }
+            ],
+            "time": "2018-07-31T11:39:36+00:00"
         },
         {
             "name": "pantera-digital/yii2-rules",
@@ -3409,6 +3574,101 @@
                 "yii2"
             ],
             "time": "2018-08-25T10:44:34+00:00"
+        },
+        {
+            "name": "yiisoft/yii2-httpclient",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-httpclient.git",
+                "reference": "3ff2e00dac357a6aff11fb9b2f2a300d2182cd22"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-httpclient/zipball/3ff2e00dac357a6aff11fb9b2f2a300d2182cd22",
+                "reference": "3ff2e00dac357a6aff11fb9b2f2a300d2182cd22",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "~2.0.13"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii\\httpclient\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Paul Klimov",
+                    "email": "klimov.paul@gmail.com"
+                }
+            ],
+            "description": "HTTP client extension for the Yii framework",
+            "keywords": [
+                "curl",
+                "http",
+                "httpclient",
+                "yii2"
+            ],
+            "time": "2018-09-11T09:03:54+00:00"
+        },
+        {
+            "name": "yiisoft/yii2-imagine",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-imagine.git",
+                "reference": "313c291624281db967d5de9e4082281d2c8e91c1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-imagine/zipball/313c291624281db967d5de9e4082281d2c8e91c1",
+                "reference": "313c291624281db967d5de9e4082281d2c8e91c1",
+                "shasum": ""
+            },
+            "require": {
+                "imagine/imagine": "~0.6.0 | ~0.7.1",
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii\\imagine\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Antonio Ramirez",
+                    "email": "amigo.cobos@gmail.com"
+                }
+            ],
+            "description": "The Imagine integration for the Yii framework",
+            "keywords": [
+                "helper",
+                "image",
+                "imagine",
+                "yii2"
+            ],
+            "time": "2018-05-03T08:32:04+00:00"
         },
         {
             "name": "yiisoft/yii2-jui",
@@ -6156,7 +6416,8 @@
         "webmayak/reserves": 20,
         "pantera-digital/yii2-seo": 20,
         "pantera-digital/yii2-rules": 20,
-        "pantera-digital/yii2-faq": 20
+        "pantera-digital/yii2-faq": 20,
+        "pantera-digital/yii2-content-kit": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
