@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c344fa3fb0ccc1209f7b271b1adc5f7f",
+    "content-hash": "eb3770a6dc0cca4041df1df604557f20",
     "packages": [
         {
             "name": "2amigos/yii2-ckeditor-widget",
@@ -364,8 +364,7 @@
             "type": "bower-asset",
             "license": [
                 "MIT"
-            ],
-            "time": "2018-06-18T11:54:28+00:00"
+            ]
         },
         {
             "name": "bower-asset/inputmask",
@@ -2333,6 +2332,39 @@
             "description": "Various utilities for Yii Framework 2.x GridView",
             "homepage": "https://github.com/pantera-digital/yii2-grid",
             "time": "2018-02-07T11:56:58+00:00"
+        },
+        {
+            "name": "pantera-digital/yii2-mail-kit",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pantera-digital/yii2-mail-kit.git",
+                "reference": "08a57ca8f9653eff801be2cf08f40f08762a7ba3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pantera-digital/yii2-mail-kit/zipball/08a57ca8f9653eff801be2cf08f40f08762a7ba3",
+                "reference": "08a57ca8f9653eff801be2cf08f40f08762a7ba3",
+                "shasum": ""
+            },
+            "require": {
+                "mikehaertl/php-tmpfile": "^1.1",
+                "php": ">=7.0.0",
+                "yiisoft/yii2": "~2.0.6",
+                "yiisoft/yii2-bootstrap": "*",
+                "yiisoft/yii2-twig": "2.0.6"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "bootstrap": "pantera\\mail\\Bootstrap"
+            },
+            "autoload": {
+                "psr-4": {
+                    "pantera\\mail\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2018-09-19T07:23:36+00:00"
         },
         {
             "name": "pantera-digital/yii2-media",
@@ -6419,7 +6451,8 @@
         "pantera-digital/yii2-seo": 20,
         "pantera-digital/yii2-rules": 20,
         "pantera-digital/yii2-faq": 20,
-        "pantera-digital/yii2-content-kit": 20
+        "pantera-digital/yii2-content-kit": 20,
+        "pantera-digital/yii2-mail-kit": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

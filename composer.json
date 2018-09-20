@@ -24,7 +24,8 @@
         "yiister/yii2-gentelella": "~1.0",
         "pantera-digital/yii2-discussion-boards": "*",
         "pantera-digital/yii2-faq": "@dev",
-        "pantera-digital/yii2-content-kit": "dev-master"
+        "pantera-digital/yii2-content-kit": "dev-master",
+        "pantera-digital/yii2-mail-kit": "@dev"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",

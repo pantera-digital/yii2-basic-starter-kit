@@ -91,6 +91,10 @@ $config = [
             'class' => \pantera\content\admin\Module::className(),
             'permissions' => ['@'],
         ],
+        'mail' => [
+            'class' => \pantera\mail\Module::class,
+            'permissions' => ['@'],
+        ],
     ],
     'params' => $params,
 ];

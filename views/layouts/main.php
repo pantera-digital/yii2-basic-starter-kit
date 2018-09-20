@@ -78,6 +78,7 @@ if ($rulesModule = Yii::$app->getModule('rules')) $items = ArrayHelper::merge($i
 if ($discussionModule = Yii::$app->getModule('discussion')) $items = ArrayHelper::merge($items, $discussionModule->menuItems);
 if ($faqModule = Yii::$app->getModule('faq')) $items = ArrayHelper::merge($items, $faqModule->menuItems);
 if ($contentModule = Yii::$app->getModule('content')) $items = ArrayHelper::merge($items, $contentModule->menuItems);
+if ($mailModule = Yii::$app->getModule('mail')) $items = ArrayHelper::merge($items, $mailModule->menuItems);
 // $items = ArrayHelper::merge($items, [
 //     Yii::$app->user->isGuest ? (
 //         ['label' => 'Login', 'url' => ['/site/login']]
