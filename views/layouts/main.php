@@ -79,6 +79,7 @@ if ($discussionModule = Yii::$app->getModule('discussion')) $items = ArrayHelper
 if ($faqModule = Yii::$app->getModule('faq')) $items = ArrayHelper::merge($items, $faqModule->menuItems);
 if ($contentModule = Yii::$app->getModule('content')) $items = ArrayHelper::merge($items, $contentModule->menuItems);
 if ($mailModule = Yii::$app->getModule('mail')) $items = ArrayHelper::merge($items, $mailModule->menuItems);
+$items[] = ['label' => 'User balance', 'url' => ['/user-balance/default/index'], 'icon' => 'money',];
 // $items = ArrayHelper::merge($items, [
 //     Yii::$app->user->isGuest ? (
 //         ['label' => 'Login', 'url' => ['/site/login']]

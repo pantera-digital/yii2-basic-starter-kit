@@ -25,7 +25,9 @@
         "pantera-digital/yii2-discussion-boards": "*",
         "pantera-digital/yii2-faq": "@dev",
         "pantera-digital/yii2-content-kit": "dev-master",
-        "pantera-digital/yii2-mail-kit": "@dev"
+        "pantera-digital/yii2-mail-kit": "@dev",
+        "pantera-digital/yii2-user-balance": "*",
+        "dektrium/yii2-user": "^0.9.0@dev"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",

@@ -1,5 +1,7 @@
 <?php
 
+use dektrium\user\models\User;
+
 $params = require __DIR__ . '/params.php';
 $db = require __DIR__ . '/db.php';
 
@@ -12,16 +14,16 @@ $config = [
         '@npm'   => '@vendor/npm-asset',
     ],
     'components' => [
+        'userBalance' => [
+            'class' => \pantera\user\balance\Component::className(),
+            'userModel' => User::className(),
+        ],
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'CgGKj9vZexX4qcWNI_YRnR_NFHk1TlEy',
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
-        ],
-        'user' => [
-            'identityClass' => 'app\models\User',
-            'enableAutoLogin' => true,
         ],
         'errorHandler' => [
             'errorAction' => 'site/error',
@@ -61,6 +63,12 @@ $config = [
         ],
     ],
     'modules' => [
+        'user' => [
+            'class' => 'dektrium\user\Module',
+        ],
+        'user-balance' => [
+            'class' => \pantera\user\balance\Module::class,
+        ],
         'reserves' => [
             'class' => 'webmayak\reserves\Module',
             'accessRoles' => ['@']
