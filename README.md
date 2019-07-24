@@ -12,4 +12,5 @@ php yii migrate --migrationPath=@vendor/pantera-digital/yii2-discussion-boards/m
 php yii migrate --migrationPath=@vendor/pantera-digital/yii2-faq/migrations
 php yii migrate --migrationPath=@vendor/pantera-digital/yii2-content-kit/migrations
 php yii migrate --migrationPath=@vendor/pantera-digital/yii2-mail-kit/migrations
+php yii migrate --migrationPath=@vendor/dektrium/yii2-user/migrations
 ```
