@@ -14,6 +14,9 @@ $config = [
         '@npm'   => '@vendor/npm-asset',
     ],
     'components' => [
+        'assetManager' => [
+            'linkAssets' => true,
+        ],
         'userBalance' => [
             'class' => \pantera\user\balance\Component::className(),
             'userModel' => User::className(),
