@@ -49,6 +49,9 @@ $bundle = yiister\gentelella\assets\Asset::register($this);
         .nav-sm .nav.side-menu li ul li a {
             font-size: 12px;
         }
+        .tab-pane {
+            padding-top: 15px;
+        }
     </style>
 </head>
 <body class="nav-<?= !empty($_COOKIE['menuIsCollapsed']) && $_COOKIE['menuIsCollapsed'] == 'true' ? 'sm' : 'md' ?>" >
