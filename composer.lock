@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "439fba23be617160796625f69a4bade2",
+    "content-hash": "51950bc4bcd8556e9fdeaaea4d5b5fdb",
     "packages": [
         {
             "name": "2amigos/yii2-ckeditor-widget",
@@ -2489,21 +2489,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantera-digital/yii2-content-kit.git",
-                "reference": "f2aefee3661e20df9017ebc1f8d0a8e0753d2e13"
+                "reference": "beaf7c732b4374ad7711c0ef7dd0d52bf7344330"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantera-digital/yii2-content-kit/zipball/f2aefee3661e20df9017ebc1f8d0a8e0753d2e13",
-                "reference": "f2aefee3661e20df9017ebc1f8d0a8e0753d2e13",
+                "url": "https://api.github.com/repos/pantera-digital/yii2-content-kit/zipball/beaf7c732b4374ad7711c0ef7dd0d52bf7344330",
+                "reference": "beaf7c732b4374ad7711c0ef7dd0d52bf7344330",
                 "shasum": ""
             },
             "require": {
                 "2amigos/yii2-ckeditor-widget": "~2.1",
                 "bower-asset/owl.carousel": "*",
                 "bower-asset/sweetalert2": "*",
+                "kartik-v/yii2-widgets": "*",
                 "mihaildev/yii2-elfinder": "*",
-                "pantera-digital/yii2-media": "dev-master",
-                "pantera-digital/yii2-seo": "*",
                 "php": ">=7.0.0",
                 "yiisoft/yii2": "~2.0.6"
             },
@@ -2517,7 +2516,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2019-08-02T15:15:06+00:00"
+            "time": "2019-08-03T16:46:21+00:00"
         },
         {
             "name": "pantera-digital/yii2-discussion-boards",
@@ -5650,12 +5649,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "e11397fed729bfef7a9c76f7b193c27ad5710f6b"
+                "reference": "062dfa4b8836627848a471bb552ede3d5c4f2a8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/e11397fed729bfef7a9c76f7b193c27ad5710f6b",
-                "reference": "e11397fed729bfef7a9c76f7b193c27ad5710f6b",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/062dfa4b8836627848a471bb552ede3d5c4f2a8f",
+                "reference": "062dfa4b8836627848a471bb552ede3d5c4f2a8f",
                 "shasum": ""
             },
             "require": {
@@ -5726,7 +5725,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2019-07-27T05:00:17+00:00"
+            "time": "2019-08-03T08:12:46+00:00"
         },
         {
             "name": "psr/container",
@@ -6498,12 +6497,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "24377ab74782e1f4dde5326b94b305fcdba4ef8e"
+                "reference": "796cc5e70e0326983ef32b1482718ce7ac0347f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/24377ab74782e1f4dde5326b94b305fcdba4ef8e",
-                "reference": "24377ab74782e1f4dde5326b94b305fcdba4ef8e",
+                "url": "https://api.github.com/repos/symfony/console/zipball/796cc5e70e0326983ef32b1482718ce7ac0347f8",
+                "reference": "796cc5e70e0326983ef32b1482718ce7ac0347f8",
                 "shasum": ""
             },
             "require": {
@@ -6565,7 +6564,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-02T12:28:34+00:00"
+            "time": "2019-08-03T14:05:30+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -6980,12 +6979,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "260ee7d1f44888e50b8670eccf804d21852b5139"
+                "reference": "33a124c7eee55486c5ba96b0983d28911ce444bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/260ee7d1f44888e50b8670eccf804d21852b5139",
-                "reference": "260ee7d1f44888e50b8670eccf804d21852b5139",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/33a124c7eee55486c5ba96b0983d28911ce444bd",
+                "reference": "33a124c7eee55486c5ba96b0983d28911ce444bd",
                 "shasum": ""
             },
             "require": {
@@ -7031,7 +7030,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-02T12:28:34+00:00"
+            "time": "2019-08-03T14:05:30+00:00"
         },
         {
             "name": "theseer/tokenizer",
@@ -7287,12 +7286,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "webmayak/reserves": 20,
-        "pantera-digital/yii2-seo": 20,
-        "pantera-digital/yii2-rules": 20,
-        "pantera-digital/yii2-faq": 20,
-        "pantera-digital/yii2-content-kit": 20,
-        "pantera-digital/yii2-mail-kit": 20,
         "dektrium/yii2-user": 20
     },
     "prefer-stable": false,
