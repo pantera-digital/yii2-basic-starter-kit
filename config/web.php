@@ -2,17 +2,16 @@
 
 use dektrium\user\models\User;
 
-$params = require __DIR__ . '/params.php';
+$aliases = require __DIR__ . '/aliases.php';
 $db = require __DIR__ . '/db.php';
+$modules = require __DIR__ . '/modules.php';
+$params = require __DIR__ . '/params.php';
 
 $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log', 'media'],
-    'aliases' => [
-        '@bower' => '@vendor/bower-asset',
-        '@npm'   => '@vendor/npm-asset',
-    ],
+    'aliases' => $aliases,
     'components' => [
         'assetManager' => [
             'linkAssets' => true,
@@ -65,48 +64,7 @@ $config = [
             ],
         ],
     ],
-    'modules' => [
-        'user' => [
-            'class' => 'dektrium\user\Module',
-        ],
-        'user-balance' => [
-            'class' => \pantera\user\balance\Module::class,
-        ],
-        'reserves' => [
-            'class' => 'webmayak\reserves\Module',
-            'accessRoles' => ['@']
-        ],
-        'seo' => [
-            'class' => 'pantera\seo\Module',
-        ],
-        'rules' => [
-            'class' => 'pantera\rules\admin\Module',
-            'permissions' => ['@'],
-        ],
-        'discussion' => [
-            'class' => 'pantera\discussions\Module',
-            'access' => ['@'],
-        ],
-        'comment' => [
-            'class' => 'yii2mod\comments\Module',
-        ],
-        'faq' => [
-            'class' => \pantera\faq\admin\Module::className(),
-            'access' => ['@'],
-        ],
-        'media' => [
-            'class' => \pantera\media\Module::className(),
-            'permissions' => ['@'],
-        ],
-        'content' => [
-            'class' => \pantera\content\admin\Module::className(),
-            'permissions' => ['@'],
-        ],
-        'mail' => [
-            'class' => \pantera\mail\Module::class,
-            'permissions' => ['@'],
-        ],
-    ],
+    'modules' => $modules,
     'params' => $params,
 ];
 
